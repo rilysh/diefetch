@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 	"os/exec"
+	"runtime"
 	"strings"
 	"syscall"
 )
@@ -19,6 +20,10 @@ func print(msg string) {
 }
 
 func main() {
+	if runtime.GOOS != "linux" {
+		print("Only machines which are running GNU/Linux are supported\n")
+		return
+	}
 	shell := strings.Split(os.Getenv("SHELL"), "/")[2]
 	de := strings.ToLower(os.Getenv("XDG_CURRENT_DESKTOP"))
 
