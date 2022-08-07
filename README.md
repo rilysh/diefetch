@@ -8,4 +8,4 @@ go build -buildmode=exe lshow.go
 strip -s lshow # Strips debug symbols
 ```
 ## Image
-![image](https://user-images.githubusercontent.com/71683721/183281971-ac600e72-4bba-4a81-a77a-84a51a67f70c.png)
+![image](https://user-images.githubusercontent.com/71683721/183305026-f598e70a-8629-460b-9660-ec33dcd78407.png)
