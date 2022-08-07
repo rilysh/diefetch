@@ -61,7 +61,7 @@ func main() {
 	%s  _nnnn_
     %s     dGGGGMMb                   %s%s@%s%s
     %s    @p~qp~~qMb                  %sOS:%s %s
-    %s    M|%s@%s||%s@%s) M|                  %sUptime:%s %dd, %dm, %dh, %ds
+    %s    M|%s@%s||%s@%s) M|                  %sUptime:%s %dd, %dh, %dm, %ds
     %s    @,----.JM|                  %sDE:%s %s
     %s   JS^\__/  qKL                 %sWM:%s %s
     %s  dZP        qKRb               %sShell:%s %s
